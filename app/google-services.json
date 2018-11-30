@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "186665546687",
+    "firebase_url": "https://smart-mbolea.firebaseio.com",
+    "project_id": "smart-mbolea",
+    "storage_bucket": "smart-mbolea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186665546687:android:b193a9bdc3f46210",
+        "android_client_info": {
+          "package_name": "com.example.frankline.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186665546687-nerikka6bd6n6hr3h4rvdq6uqubfokeg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu06Q5BL3JKoOmS6TpL9LMa8M7tDH6eRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
