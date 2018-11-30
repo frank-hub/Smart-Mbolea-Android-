@@ -16,11 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Dashboard"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Home"></activity>
+        <activity android:name=".Home">
+        </activity>
     </application>
 
 </manifest>
