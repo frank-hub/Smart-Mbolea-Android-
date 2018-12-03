@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "186665546687-9dn3j7eibpkh86m07gihuqjjpb1p40vq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.frankline.myapplication",
+            "certificate_hash": "e6b148a8793edb6b582d54a90d5e81bb5927b752"
+          }
+        },
+        {
           "client_id": "186665546687-nerikka6bd6n6hr3h4rvdq6uqubfokeg.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186665546687-okkl6fqoj2q42517pf4ctdtbot3l5nlt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

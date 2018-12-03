@@ -7,13 +7,19 @@
     android:background="@drawable/login_bg"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/web_hi_res_512"/>
+
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="200dp"
-        android:layout_height="52dp"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/username"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="123dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="204dp"
         android:background="@color/colorPrimary"
         android:text="LOGIN"
         android:textColor="#ffff"
@@ -27,8 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/password"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="368dp"
+        android:layout_marginStart="-4dp"
+        android:layout_marginBottom="406dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -44,15 +50,22 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="75dp"
-        android:layout_marginLeft="75dp"
-        android:layout_marginTop="219dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="237dp"
         android:ems="10"
-        android:textColor="#fff"
         android:hint="Password"
-        android:textColorHint="#fff"
         android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="242dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="450dp"></com.google.android.gms.common.SignInButton>
 
 </RelativeLayout>

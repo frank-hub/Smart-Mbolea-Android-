@@ -13,56 +13,135 @@
         android:padding="15dp">
         <TableRow>
             <android.support.v7.widget.CardView
-                android:text="Hello"
                 android:background="@color/colorPrimary"
                 android:layout_height="150dp"
                 android:layout_width="150dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="15dp"
-                android:padding="3dip" />
+                android:padding="3dip">
+
+                <TextView
+                    android:id="@+id/fertiliser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="120dp"
+                    android:text="Fertiliser" />
+
+                <Button
+                    android:id="@+id/fertilisers"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_spa_black_24dp"/>
+
+            </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
-                android:text="Hello 2"
                 android:layout_height="150dp"
                 android:layout_width="150dp"
                 android:gravity="right"
-                android:padding="3dip" />
+                android:padding="3dip">
+                <TextView
+                    android:id="@+id/programs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="120dp"
+                    android:text="Programs" />
+                <Button
+                    android:id="@+id/progBtn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_bubble_chart_black_24dp"/>
+            </android.support.v7.widget.CardView>
         </TableRow>
 
         <TableRow
             android:layout_marginTop="15dp">
             <android.support.v7.widget.CardView
-                android:text="Hello"
                 android:background="@color/colorPrimary"
                 android:layout_height="150dp"
                 android:layout_width="150dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="15dp"
-                android:padding="3dip" />
+                android:padding="3dip">
+                <TextView
+                    android:id="@+id/crop_db"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="120dp"
+                    android:textAlignment="center"
+                    android:text="Crop DB" />
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_local_florist_black_24dp"/>
+            </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
                 android:text="Hello 2"
                 android:layout_height="150dp"
                 android:layout_width="150dp"
                 android:gravity="right"
-                android:padding="3dip" />
+                android:padding="3dip">
+                <TextView
+                    android:id="@+id/field_results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="120dp"
+                    android:text="Field Results" />
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_satellite_black_24dp"/>
+            </android.support.v7.widget.CardView>
         </TableRow>
 
         <TableRow
             android:layout_marginTop="15dp">
             <android.support.v7.widget.CardView
-                android:text="Hello"
                 android:background="@color/colorPrimary"
                 android:layout_height="150dp"
                 android:layout_width="150dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="15dp"
-                android:padding="3dip" />
+                android:padding="3dip">
+                <TextView
+                    android:id="@+id/farm_mgt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="115dp"
+                    android:text="Farm Management" />
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_insert_drive_file_black_24dp"/>
+            </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
-                android:text="Hello 2"
+                android:id="@+id/profileCard"
                 android:layout_height="150dp"
                 android:layout_width="150dp"
                 android:gravity="right"
-                android:background="@drawable/ic_person_pin_black_24dp"
-                android:padding="3dip" />
+                android:padding="3dip" >
+                <TextView
+                    android:id="@+id/account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="120dp"
+                    android:text="My Account" />
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_person_pin_black_24dp"/>
+            </android.support.v7.widget.CardView>
         </TableRow>
 
     </TableLayout>
